@@ -10,8 +10,8 @@ https://www.youtube.com/watch?v=bs7Isb54We8
 * If you use pure ESX, add `lighter` item into your database
 * If you use ox_inventory add the following lines into `ox_inventory\data\items.lua`:
 ```lua
-	['lighter'] = {
-		label = 'Lighter',
-		weight = 145,
-	},
+['lighter'] = {
+	label = 'Lighter',
+	weight = 145,
+},
 ```

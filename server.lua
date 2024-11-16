@@ -1,0 +1,10 @@
+local ESX = exports["es_extended"]:getSharedObject()
+ESX.RegisterUsableItem('lighter', function(source)
+	TriggerClientEvent('simplelighter:useLighter', source)
+end)
+
+RegisterNetEvent('simplelighter:fireSync')
+AddEventHandler('simplelighter:fireSync', function(coords)
+    local randomDelay = math.random(10000, 20000)
+    TriggerClientEvent('simplelighter:fireSync', -1, coords, randomDelay)
+end)

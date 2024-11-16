@@ -15,3 +15,5 @@ https://www.youtube.com/watch?v=bs7Isb54We8
 	weight = 145,
 },
 ```
+## Dependencies
+* **ESX** - https://github.com/esx-framework

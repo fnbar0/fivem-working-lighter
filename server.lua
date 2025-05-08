@@ -2,9 +2,7 @@ local ESX = exports["es_extended"]:getSharedObject()
 ESX.RegisterUsableItem('lighter', function(source)
 	TriggerClientEvent('simplelighter:useLighter', source)
 end)
-RegisterCommand('lighter', function(source)
-    TriggerClientEvent('simplelighter:useLighter', source)
-end)
+
 RegisterNetEvent('simplelighter:fireSync')
 AddEventHandler('simplelighter:fireSync', function(coords)
     local _source = source
